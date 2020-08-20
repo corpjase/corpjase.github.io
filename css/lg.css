@@ -1,24 +1,25 @@
 @media screen and (max-width:992px){
-    #quienes img{
-        min-width: 365px;
-        min-height: 260px;
-    }
-    #quienes article{
-        padding-left: 20px;
-        width: 30%;
-    }
-    #quienes #img{
-        padding-right: 20px;
-        width: 40%;
-    }
-    .proy{
+
+/*¿Qué esperar?*/ 
+
+#quienes article{
+    padding-left: 20px;
+    width: 57%;
+}
+#quienes #img{
+    width: 40%;
+}
+#quienes img{
+    width: 95%;
+}
+
+
+    /*Cursos*/
+    .curso{
         width: 47%;
         margin-bottom:3%;
     }
     .separar-nulo{
         margin-left: 0px;
-    }
-    .proy img{
-        height: 160px;
     }
 }
