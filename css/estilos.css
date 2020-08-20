@@ -250,6 +250,10 @@ header{
         vertical-align: middle;
         
     }
+#premium li{
+        color: #fff;
+        font-size: 1rem;
+}
     #suscrip{
         margin-left: 120px;
         display: inline-block;
@@ -259,7 +263,6 @@ header{
     #ventajas {
         display: inline-block;
         width: 40%;
-        font-size: 1rem;
     }
     #ventajas{
         margin-left: 80px;
