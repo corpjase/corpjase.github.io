@@ -71,6 +71,7 @@ header{
 /*¿Qué esperar*/
     #quienes{
         background-color: #444246;
+            padding: 5%;
     }
         #quienes img{
             border-radius: 0 20px;
@@ -85,7 +86,6 @@ header{
         #quienes article{
             display: inline-block;
             text-align: left;
-            padding: 5%;
             padding-top: 0;
         }
         #img{
