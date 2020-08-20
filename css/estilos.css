@@ -12,7 +12,7 @@ html{
 }
 body{
     font-size:0px ;
-    padding-top:80px;
+    padding-top:200px;
     font-family: Monstserrat re, sans-serif;
     background-color: #444246;
 }
@@ -241,11 +241,11 @@ header{
         /*premium*/
 #premium{
         background-color:#ff7a14;
-    }
-#premium li{
-        color: #fff;
         font-size: 1rem;
-}
+        color:#fff;
+        vertical-align: middle;
+        
+    }
     #suscrip{
         margin-left: 120px;
         display: inline-block;
@@ -255,7 +255,7 @@ header{
     #ventajas {
         display: inline-block;
         width: 40%;
-        padding-left:65%;
+        
     }
     #ventajas{
         margin-left: 80px;
