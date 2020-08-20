@@ -12,7 +12,7 @@ html{
 }
 body{
     font-size:0px ;
-    padding-top:40px;
+    padding-top:80px;
     font-family: Monstserrat re, sans-serif;
     background-color: #444246;
 }
@@ -70,7 +70,7 @@ header{
    
 /*¿Qué esperar*/
     #quienes{
-        background-color: #444246;   
+        background-color: #444246;
     }
         #quienes img{
             border-radius: 0 20px;
@@ -86,15 +86,11 @@ header{
             display: inline-block;
             text-align: left;
             padding: 5%;
+            padding-top: 0;
         }
         #img{
             display: inline-block;
             vertical-align: middle;
-        }
-        #quienes h1{
-            font-size: 3.5rem;
-            color: #fff;
-            padding-bottom: 10px;
         }
         #quienes h3{
             font-size: 1.75rem;
