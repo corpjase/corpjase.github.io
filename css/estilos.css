@@ -131,7 +131,7 @@ header{
     #formulario input{
         width: 200px;
         height: 20px;
-        border-radius: 10px 10px 10px 10px;
+        border-radius: 5x;
         display:block;
         margin-top:10px;
     }
