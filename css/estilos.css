@@ -249,7 +249,6 @@ header{
 #premium li{
         color: #fff;
         font-size: 1rem;
-        padding-left : 70%;
 }
     #suscrip{
         margin-left: 120px;
@@ -260,6 +259,7 @@ header{
     #ventajas {
         display: inline-block;
         width: 40%;
+        padding-left:65%;
     }
     #ventajas{
         margin-left: 80px;
