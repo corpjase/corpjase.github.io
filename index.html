@@ -3,141 +3,140 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../images/logo.png">
-    <link rel="stylesheet" href="../css/estilos.css" type="text/css">
+    <link rel="shortcut icon" href="images/logoC.png">
+    <link rel="stylesheet" href="css/estilos.css" type="text/css">
     
-    <link rel="stylesheet" href="../css/lg.css" type="text/css">
-    <link rel="stylesheet" href="../css/md.css" type="text/css">
+    <link rel="stylesheet" href="css/lg.css" type="text/css">
+    <link rel="stylesheet" href="css/md.css" type="text/css">
     
     <title>Landing</title>
-</head>
+</head> 
 <body>
+
+
     <header id="cabecera">
         <figure>
                <a class="empresa" id="logo" href="index.html">
-                   <img id="logotipo" src="../images/logo.png"  alt="Logotipo">
+                   <img id="logotipo"src="images/logo.svg"  alt="Logotipo">
                 </a>
         </figure>
 
-        <nav id="menu-ham">
-            <a id="abrir-ham" href="#cabecera">
-                <img src="../images/menu2.svg" alt="">
-            </a>
-            <a id="cerrar-ham" href="#">
-                <img src="../images/menu2.svg" alt="">
-            </a>
-        </nav>
 
         <nav id="menuPrincipal">
-
-            <a class="opcion" href="#">Nosotros </a>
-            <a class="opcion" href="#">Contacto</a>
-            <a class="opcion" href="#">Cursos</a>
-            <a class="opcion" href="#">Inscribirse</a>
+            <a class="opcion" href="#quienes">Registro </a>
+            <a class="opcion" href="#cursos">Cursos</a>
+            <a class="opcion" href="#">Premium</a>
         </nav>
     </header>
     
+
+
     <section id="quienes" class="contenido" >
-        <h6>quienes</h6>
-        <article>
-            <h2>¿Qué esperar?</h2>
-            <p>Si lo que deseas es aprender en esta nueva normalidad, este es el lugar indicado. No te quedes atras y se un excelente elemento educativo aun en timepos de aislamiento. Aprende con cursos hechos meramente por personal con experiencia en el tema
+        <article id="queEsperar">
+            <h1>¿Qué esperar?</h1>
+            <p>Si lo que deseas es aprender en esta nueva normalidad, este es el lugar indicado. No te quedes atrás y se un excelente elemento educativo aun en tiempos de aislamiento. Aprende con cursos hechos meramente por personal con experiencia en el tema
+            </br>
+                <h3> Llene el siguiente formulario por favor: </h3>
             </p>
+                <div id="formulario" class="contenido">
+                    <h3>Registrate:</h3>
+                    <input type="text" placeholder="Nombre: " required>
+                    <input type="email" placeholder="Correo: " required>
+                    <input type="email" placeholder="Confirme su correo: " required>
+                    <input type="text" placeholder="Curso preferido: ">
+                    <button id="aceptar">Aceptar</button>
+                </div>
         </article>
-        <article id="img">
-        <h6>imagen</h6>
-            <img src="../images/cursoExcel.jpg" alt="curso de Excel">
+        <article id="img" class="contenido">
+            <h3>¡Beneficios PREMIUM Ahora!</h3>
+            <a href="#premium" id="info">Más información</a>
+            <img src="images/cursoExcel.jpg">
         </article>
     </section>
 
-    <div id="lan">
 
-    </div>
-
-    <section id="formulario" class="contenido " >
-        <h6>Regístrate</h6>
-        <p>Introduzca su correo para conseguir el primer video del curso</p>
-        <div id="sec">
-            
-        <input type="email" placeholder=" introduzca su correo">
-        <input type="email" placeholder=" Confirme su correo">
-        <button id="aceptar">Aceptar</button>
-        </div>
-        <img src="../images/logo.png" alt="Logotipo ">
-    </section>
-
-
-
-
-
-
-    <section class="contenido"  id="proyectos">
+ 
+    <section class="contenido"  id="cursos">
         <h1>Nuestros cursos</h1>
-        <article class="proy">
+
+        <article class="curso">
+            <div class="textC">
+                <h3>Google Classroom</h3>
+                <img src="images/bttnClss.png" class="logoCurso" alt="logo Google Classroom">
+                <p>Aprenderás a cómo gestionar la plataforma para tu beneficio, 
+                    podrás crear una clase nueva, agregar alumnos, gestionarlos, asignar actividades, 
+                    cambiar las actividades definidas, calificar trabajos y retroalimentar.</p>
+            </div>
             
-            <h3>Cursos de Classroom</h3>
-            <p>Aprenderás a cómo gestionar la plataforma para tu beneficio, podrás crear una clase nueva, agregar alumnos, gestionarlos, asignar actividades, cambiar las actividades definidas, calificar trabajos y retroalimentar
-                
-            </p>
-            <a class="btn" href="#">Ver curso</a>#
+            <div class="botonC">
+                <a class="btn" href="#">Registrarse</a>
+            </div>
         </article>
-        <article class="proy separar-izq">
-            
-            <h3>Cursos de Forms</h3>
-            <p>Crearás formularios con respuesta de todo tipo. Con archivos multimedia que complementen los cuestionarios, aprenderás una manera practica de realizarlos junto con su envío, gestión y edición de varios formatos.</p>
-            <a class="btn" href="#">Ver curso</a>
+
+        <article class="curso separar-izq">
+            <div class="textC">
+                <h3>Microsoft Excel</h3>
+                <img src="images/bttnExcel.png" class="logoCurso" alt="logo Excel">
+                <p>Aprende a usa Excel como una herramienta de gestión academica, 
+                    como un listado inteligente, aprenderás a usar formulas de todo tipo, 
+                    maneras de imprimir tus objetos, insertar multimedia, gráficas y muchas más.</p>
+            </div>
+            <div class="botonC">
+                <a class="btn" href="#">Registrarse</a>
+            </div>
         </article>
-        <article class="proy separar-izq separar-nulo">
-            
-            <h3>Cursos de Excel</h3>
-            <p>Aprende a usa Excel como una herramienta de gestión academica, como un listado inteligente, aprenderás a usar formulas de todo tipo, maneras de imprimir tus objetos, insertar multimedia, gráficas y muchas más cosas.</p>
-            <a class="btn" href="#">Ver curso</a>
+
+        <article class="curso separar-izq separar-nulo">
+            <div class="textC">
+                <h3>Google Drive y Gmail</h3>
+                <img src="images/bttnGoogle.png" class="logoCurso" alt="logo Google">
+                <p>Aprende a utilizar Gmail como medio de comunicación formal entre profesor y alumno, 
+                    tambien a gestionar de manera efectiva Google Drive y que los integrantes del grupo 
+                    accedan a sus contenidos.</p>
+            </div>
+            <div class="botonC">
+                <a class="btn" href="#">Registrarse</a>
+            </div> 
         </article>
-        <article class="proy separar-izq">
-           
-            <h3>Cursos de Conferencias</h3>
-            <p>Necesitaras una manera eficiente de comunicarte, y con las llamadas no basta. Aprende a configurar videollamadas y gestionar el control de la conferencia. Basta de esas interrupciones continuas por errores de principiante.</p>
-            <a class="btn" href="#">Ver curso</a>
+
+        <article class="curso separar-izq">
+            <div class="textC">
+                <h3>Zoom</h3>
+                <img src="images/bttnZoom.png" class="logoCurso" alt="logo Zoom">
+                <p>Aprende a configurar videollamadas y gestionar el control de la conferencia para asegurar
+                    una comunicación más efectiva sin interrupciónes por error de los participantes o errores 
+                    técnicos de tus dispocitivos.</p>
+            </div>
+            <div class="botonC">
+                <a class="btn" href="#">Registrarse</a>
+            </div>
         </article>
     </section>
-    
+
 
     <footer>
         <div id="foo1">
-            <h2>Nosotros</h2>
-            <h2>Contacto</h2>
+            <a  href="#quienes">Registro </a>
+            <a  href="#cursos">Cursos</a>
         </div>
         <div id="foo2">
-            <h2>Cursos</h2>
-            <h2>Inscribirse</h2>
+            <a  href="#">Premium</a>
         </div>
         <div id="foo3">
-            <img src="../images/logo.png" id="imgfoo" alt="logo JASE">
+            <img src="images/logo.svg" id="imgfoo">
         </div>
         <div id="foo4"> 
-            <a href="../icon/whatsapp.svg"></a>
-            <a href="../icon/icons8-twitter.svg"></a>
-            <a href="../icon/facebook.svg"></a>
+            <a href="https://www.facebook.com/JASE-Corp-105828291169088">
+                <img src="icon/fb.svg" class="redes" alt="Facebook"></a>
+            <a href="https://twitter.com/CorpJase">
+                <img src="icon/tw.svg" class="redes" alt="Twitter"></a>
+            <a href="https://www.youtube.com/channel/UCJ3dfWaWEZsMgrNULf_Ws2A?">
+                <img src="icon/yt.svg" class="redes" alt="Youtube"></a>
         </div>
-        <div></div>
-        Copyright 2020. Todos los derechos reservados- eimj</footer>
+        <div id="foo5"> 
+        Copyright 2020. Todos los derechos reservados. JASE CORP
+        </div>
+    </footer>
 
-        <script src="../js/java.js"></script>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-174507869-1"></script>
-        <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'UA-174507869-1');
-        </script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-          
-            gtag('config', 'UA-174507869-1');
-          </script>
 </body>
 </html>
