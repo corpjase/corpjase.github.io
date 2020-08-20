@@ -242,6 +242,29 @@ header{
             width: 110px;
         }
 
+        /*premium*/
+#premium{
+        background-color:#ff7a14;
+        font-size: 1rem;
+        color:#fff;
+        vertical-align: middle;
+        
+    }
+    #suscrip{
+        margin-left: 120px;
+        display: inline-block;
+        width: 35%;
+        vertical-align: middle;
+    }
+    #ventajas {
+        display: inline-block;
+        width: 40%;
+        
+    }
+    #ventajas{
+        margin-left: 80px;
+}
+
         /*footer*/
         footer{
             height: 150px;
