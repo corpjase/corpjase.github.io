@@ -249,15 +249,15 @@ header{
     #suscrip{
         padding-left: 10%;
         display: inline-block;
-        width: 45%;
+        width: 65%;
         vertical-align: middle;
     }
 #suscrip img{
-    width: 90%;
+    width: 600px;
 }
     #ventajas {
         display: inline-block;
-        width: 50%;
+        width: 30%;
         
     }
     #ventajas{
