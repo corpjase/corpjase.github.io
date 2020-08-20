@@ -245,15 +245,11 @@ header{
         /*premium*/
 #premium{
         background-color:#ff7a14;
-        font-size: 1rem;
-        color:#fff;
-        vertical-align: middle;
-        
     }
 #premium li{
         color: #fff;
         font-size: 1rem;
-        padding-left : 80%;
+        padding-left : 70%;
 }
     #suscrip{
         margin-left: 120px;
