@@ -247,18 +247,18 @@ header{
         
     }
     #suscrip{
-        margin-left: 120px;
+        margin-left: 10%;
         display: inline-block;
-        width: 35%;
+        width: 45%;
         vertical-align: middle;
     }
     #ventajas {
         display: inline-block;
-        width: 40%;
+        width: 50%;
         
     }
     #ventajas{
-        margin-left: 80px;
+        margin-left: 10%;
 }
 
         /*footer*/
