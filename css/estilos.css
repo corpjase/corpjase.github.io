@@ -12,52 +12,43 @@ html{
 }
 body{
     font-size:0px ;
-    padding-top:75px;
+    padding-top:40px;
     font-family: Monstserrat re, sans-serif;
-    background-color:  #3a393a;
+    background-color: #444246;
 }
+
+/*nav*/
+
 header{
-    background-color: #ff7a14;
     width: 100%;
     position:fixed;
     top: 0px;
     text-align: center;
     min-width: 320px;
+    background-color: #3443619d;
 }
         figure{
-            width: 25%;
-            padding: 5px 0;
+            height: 30px;
+            padding: 2px 0;
             display: inline-block;
-            min-width: 190px;
+            width: 10%;
         }
         #logotipo{
-            width:100px;
-            padding-top: 20px;
-            padding-bottom: 20px;
+            width:100%;
+            min-width: 90px;
+            padding-bottom: 30px;
             display: inline-block;
             vertical-align: middle;
         }     
         #nombre{
+            width: 80%;
             font-size: 2rem;
             display: inline-block;
             vertical-align: middle;
             margin-left: 10px;
             color: #ffffff;
         }   
-    #menu-ham{
-        display: none;
-    }
-    #abrir-ham,#cerrar-ham{
-        text-align: center;
-        min-width: 50px;
-        vertical-align: bottom;
-        display: none;
-    }
-    #abrir-ham img,#cerrar-ham img{
-        width: 30px;
-        vertical-align: middle;
-        border: 1px solid#fff;
-    }    
+    
     #menuPrincipal{
         width: 75%;
         
@@ -77,19 +68,16 @@ header{
         color: #ffffff;
     }
    
-.contenido{
-    padding: 3% 10%;
-    text-align: left;
-    min-width: 320px;
-}
-
+/*¿Qué esperar*/
     #quienes{
         background-color: #444246;   
     }
         #quienes img{
             border-radius: 0 20px;
+            width: 80%;
+            margin: 10px;
         }
-        #quienes img, #quienes article{
+        #quienes #img, #quienes article{
             width: 50%;
             display: inline-block;
             vertical-align: middle;
@@ -97,60 +85,45 @@ header{
         #quienes article{
             display: inline-block;
             text-align: left;
-        }
-        #quienes #img{
-            display: inline-block;
-            text-align: right;
+            padding: 5%;
         }
         #img{
-            width: 100%;
-            height: 100%;
             display: inline-block;
             vertical-align: middle;
         }
-        #quienes h2{
+        #quienes h1{
             font-size: 3.5rem;
             color: #fff;
             padding-bottom: 10px;
         }
-        #quienes h6{
-            font-size:0rem;
+        #quienes h3{
+            font-size: 1.75rem;
+            color: #fff;
+            padding-bottom: 10px;
         }
         #quienes p{
             font-size: 1rem;
             color: #fff;
             margin-bottom: 20px;
             line-height: 1.5rem;
+            font-style:justify;
         }
-        #quienes a, #proyectos a{
-            font-size: 1.2rem;
-            text-decoration: none;
-            display:block;
-            background-color: #ff641c;
-            width: 150px;
-            padding: 10px;
-            border-radius: 9px;
-            color: #ffffff;
-            text-align: center;
-            border: 1px solid#b52001;
+        #quienes a{
+            font-size: 1rem;
+            color: #ff641c;
+            padding: 20px;
         }
-        #quienes a:hover{
-            background-color: #b52003;
-        }
-        #quienes a:active{
-            margin-top:-1px;
-        }
+
+    /*Formulario registro*/
     #formulario{
         background-color:#525252;
         color:#fff;    
         font-size: 1rem; 
+        padding-left:30%;
+        padding-bottom: 30px;
     }
     #formulario p{
         margin-bottom:20px;
-    }
-    #formulario img{
-        width: 500px;
-        
     }
     #formulario div{
         width: 50px;
@@ -159,10 +132,11 @@ header{
         width: 200px;
         height: 20px;
         border-radius: 10px 10px 10px 10px;
+        display:block;
+        margin-top:10px;
     }
     #formulario button{
         margin: 15px auto;
-        /*background-color: #cacaca;*/
         font-size: 1.2rem;
             text-decoration: none;
             display:block;
@@ -172,20 +146,59 @@ header{
             border-radius: 9px;
             color: #ffffff;
             text-align: center;
-            border: 1px solid#b52001;;
+            border: 1px solid#b52001;
+            margin-left:50px;
     }
-    
-    
-    #proyectos{
-        text-align: left;
+    #cursos a{
+        font-size: 1.2rem;
+        text-decoration: none;
+        background-color: #ff8f37;
+        padding: 10px;
+        border-radius: 9px;
+        color: #ffffff;
+        text-align: center;
+        border: 1px solid#f87a1a;
+        margin-left: 27%;
     }
-        #proyectos h1{
+
+/*cursos*/
+#cursos{
+    padding: 3% 10%;
+    text-align: left;
+    min-width: 320px;
+    background-color: #5b585e;
+}
+
+        #cursos a{
+            font-size: 1.2rem;
+            text-decoration: none;
+            background-color: #ff8f37;
+            padding: 10px;
+            border-radius: 9px;
+            color: #ffffff;
+            text-align: center;
+            border: 1px solid#f87a1a;
+            margin-left: 27%;
+        }
+        
+        .textC{
+            height: 630px;
+        }
+
+        .botonC{
+            width: 100%;
+            display:block;
+            bottom: 0%;
+            margin-bottom: 20px;
+        }
+    
+        #cursos h1{
             font-size: 3.5rem;
-            color: #ff641c;
+            color: #ff8f37;
             padding-bottom: 30px;
             text-align: center;
         }
-        .proy{
+        .curso{
             width: 22.75%;
             background-color:rgba(0, 0, 0, 0.3) ;
             border: 1px solid#ccc;
@@ -194,7 +207,7 @@ header{
             display: inline-block;
             overflow: hidden;
         }
-        .proy:hover{
+        .curso:hover{
             box-shadow: 0px  0px 5px #999;
         }
         .separar-izq{
@@ -204,22 +217,24 @@ header{
         .separar-der{
             margin-right: 3%;
         }
-        .proy img{
-            width: 100%;
-            height: 120px;
+        .curso img{
+            width: 90%;
+            max-width: 400px;
         }
-        .proy h3{
+        .curso h3{
             font-size: 1.3rem;
             padding:20px 0 10px 0;
             color: #fff;
+            height: 70px;
+            vertical-align: auto;
         }
-        .proy p{
+        .curso p{
             font-size: 1rem;
             padding:10px 20px;
             line-height: 1.5rem;
             color: #fff;
         }
-        #proyectos a{
+        #cursos a{
             font-size: 1rem;
             margin: 0 auto;
             margin-bottom: 20px;
@@ -227,46 +242,67 @@ header{
             width: 110px;
         }
 
-
-    footer{
-        background-color:#272627;
-        color:#fff;
-        font-size: 1rem;
-        padding: 20px 10%;
-        text-align: right;
-    }
-        #imgfoo{
-            width:50%;
-            height: auto;
-            /*padding-top: 20px;*/
-            display: block;
-            margin:auto;
+        /*footer*/
+        footer{
+            height: 150px;
+            background-color:#141414;
+            color:#fff;
+            font-size: 1rem;
+            padding: 20px 10%;
+            text-align: right;
         }
-        #foo1{
-            width: 14.5%;
-            margin-left: 0.2%;
-            float: left;
-            vertical-align: middle;
-        }
-            #foo1 h2{
-                font-size: 1.3rem;
-                text-align: center;
+            #imgfoo{
+                width: 150px;
+                height: auto;
+                display: block;
+                margin:auto;
+                margin-top:-30px;
             }
-        #foo2{
-            width: 14.5%;
-            float: left;
-            vertical-align: middle;
-        }
-            #foo2 h2{
-                font-size: 1.3rem;   
-                text-align: center;
+            #foo1{
+                width: 14.5%;
+                margin-left: 0.2%;
+                float: left;
+                vertical-align: middle;
+                text-align: left;
             }
-        #foo3{
-            width: 39%;
-            float: left;
-        }
-        #foo4{
-            width: 29%;
-            margin-right: 1%;
-            float: left;
-        }
+                #foo1 a, #foo2 a{
+                    text-align: left;
+                    font-size: 1.25rem;
+                    color:rgba(255, 255, 255, 0.884);
+                    padding: 10px;
+                    text-decoration: none;
+                    display: inline-block;
+                }
+                #foo1 h2{
+                    font-size: 1.3rem;
+                    text-align: center;
+                }
+            #foo2{
+                width: 14.5%;
+                float: left;
+                vertical-align: middle;
+            }
+                #foo2 h2{
+                    font-size: 1.3rem;   
+                    text-align: center;
+                }
+            #foo3{
+                width: 39%;
+                float: left;
+            }
+            #foo4{
+                width: 29%;
+                margin-right: 1%;
+                float: left;
+            }
+            #redes{ 
+                display: inline-block;
+                box-sizing: border-box;
+            }
+            #foo4{
+                width: 29%;
+                height: 100px;
+                margin-right: 1%;
+                float: left;
+                vertical-align: bottom;
+            }
