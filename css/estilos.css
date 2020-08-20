@@ -217,12 +217,13 @@ header{
             width: 90%;
             max-width: 400px;
         }
-        .curso h3{
+        .curso h3, #premium h3{
             font-size: 1.3rem;
             padding:20px 0 10px 0;
             color: #fff;
             height: 70px;
             vertical-align: auto;
+            display:block;
         }
         .curso p{
             font-size: 1rem;
@@ -253,7 +254,7 @@ header{
         vertical-align: middle;
     }
 #suscrip img{
-    width: 90%;
+    width: 600px;
 }
     #ventajas {
         display: inline-block;
