@@ -217,7 +217,7 @@ header{
             width: 90%;
             max-width: 400px;
         }
-        .curso h3, #premium h3{
+        .curso h3{
             font-size: 1.3rem;
             padding:20px 0 10px 0;
             color: #fff;
@@ -244,9 +244,14 @@ header{
         background-color:#ff7a14;
         font-size: 1rem;
         color:#fff;
-        vertical-align: middle;
-        
+        vertical-align: middle; 
     }
+
+#premium h3{
+            font-size: 1.75rem;
+            color: #fff;
+            padding-bottom: 10px;
+        }
     #suscrip{
         padding-left: 10%;
         display: inline-block;
@@ -254,16 +259,16 @@ header{
         vertical-align: middle;
     }
 #suscrip img{
-    width: 600px;
-}
-    #ventajas {
+        width: 600px;
+    }
+#ventajas {
         display: inline-block;
         width: 30%;
         
-    }
-    #ventajas{
+        }
+#ventajas{
         padding-left: 10%;
-}
+        }
 
         /*footer*/
         footer{
