@@ -34,8 +34,16 @@
             margin-right: 0;
         }
 
-
-
+ /*Premium*/
+    #suscrip {
+        width:90%;
+        display:block;
+    }
+    #ventajas{
+        width:100%;
+        display:block;
+    }
+ 
 /*footer*/
 footer{
     text-align: center;
