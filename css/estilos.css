@@ -248,9 +248,12 @@ header{
     }
 
 #premium h3{
-            font-size: 1.75rem;
+            font-size: 1.3rem;
+            padding:20px 0 10px 0;
             color: #fff;
-            padding-bottom: 10px;
+            height: 70px;
+            vertical-align: auto;
+            display:block;
         }
     #suscrip{
         padding-left: 10%;
